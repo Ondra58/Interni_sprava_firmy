@@ -1,0 +1,215 @@
+html{
+    scrolling="no";
+}
+body{
+	animation: transition 1s;
+}
+@keyframes transition{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.nadpis{
+	height: 120px;
+	background: linear-gradient(to bottom, black, var(--bs-dark));
+	text-align: center;
+	animation: slide-in 1s;
+}
+h1{
+	padding-top: 20px;
+	color: white;
+	font-family: Impact;
+}
+.card-title-login{
+	padding-top: 20px;
+	color: var(--bs-dark);
+	font-family: Impact;
+}
+.menu{
+	height: 845px;
+	width: 15%;
+	background: linear-gradient(to top, black, var(--bs-dark));
+	text-align:center;
+}
+.profil{
+	width:100px;
+	margin-top: 450px;
+}
+.btn.btn-flat{
+	border: 0px;
+	border-radius: 0px;
+	font-family: Impact, sans-serif !important;
+	font-size: 25px;
+	height: 50px;
+	width: 100%;
+	background: transparent;
+	transition: 0.5s;	
+	margin-bottom: 20px;
+}
+.btn-flat.btn-dark{
+	color: white;
+	background: linear-gradient(45deg, white 50%, transparent 50%);
+	background-position: right bottom;
+	background-size: 220% 100%;
+}
+.btn-flat.btn-dark:hover{
+	background-position: left bottom;
+	border: 0px;
+	color: var(--bs-dark);
+}
+.tlacitko{
+	width: 100%;
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.odeslat{	
+	font-size: 25px;
+    border: 0px;
+    height: 60px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+.odeslat:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.2);
+}
+.obal{
+	display: flex;
+}
+.obsah{
+	display: flex;
+	height: 845px;
+	width: 85%;
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: Impact, sans-serif !important;
+}
+.prihlaseni{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	height: 750px;
+	width: 100%;
+	background-size: 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: Impact, sans-serif !important;
+}
+.message{
+	margin-top: 15px;
+	color: red;
+}
+.obsah1{
+	background-image: url(zamestnanci-pozadi.png);
+	justify-content: center;
+}
+.obsah2{
+	background-image: url(dochazka-pozadi.png);	
+	justify-content: center;
+}
+.obsah3{
+	background-image: url(majetek-pozadi.png);	
+	justify-content: center;
+}
+.obsah4{
+	background-image: url(dovolena-pozadi.png);	
+	justify-content: center;
+}
+.obsah5{
+	background-image: url(profil-pozadi.png);
+}
+.obrazek{
+	height: 50%;
+}
+.form-floating{
+    margin: 15px;
+}
+.card{
+	border: 0px;
+	border-radius: 100px;
+	background: linear-gradient(to bottom right, transparent, #6c757d);
+	width: 20rem;
+	height: 30rem;
+	margin-top: 50px;
+	margin-left: 25px;
+	margin-right: 25px;		
+	transition: 0.3s;	
+}
+.card-body{
+	font-family: Impact;
+	text-align: center;
+}
+.card:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.2);
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 0 0 20px rgba(255, 255, 255, 0.4), 0 0 30px rgba(255, 255, 255, 0.2);
+}
+.card-login{
+	position: relative;
+	border: 0px;
+	border-radius: 100px;
+	background: linear-gradient(to bottom right, transparent, #6c757d);
+	width: 30rem;
+	height: 40rem;
+	margin-top: 50px;
+	margin-left: 25px;
+	margin-right: 25px;		
+	transition: 0.3s;	
+}
+h5{
+	color: white;
+	font-size: 30px;
+}
+p{
+	font-size: 20px;
+}
+.zapomenuteheslo, .nevytvorenyucet{
+	font-size: 16px;
+	color: var(--bs-dark);
+	text-decoration: none;
+}
+.zapomenuteheslo:hover, .nevytvorenyucet:hover{
+	color: white;
+}
+.udaje{
+	width: 30%;
+	height: 30%;
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.nadpis-udaje{
+	text-align: center;
+}
+.table{
+	font-size: 22px;
+	text-align: center;
+}
+/*button{
+	font-family: Impact, sans-serif !important;
+	margin: 10px;
+	height: 50px;
+	width: 100%;	
+	color: white;
+	background-color: var(--bs-dark);
+	
+	border: 0px;
+	
+}	
+button:hover{
+	//background-color: white;
+	background: linear-gradient(30deg, #ffffff 50%, transparent 50%);
+	background-position: left bottom;
+	color: var(--bs-dark);
+	//box-shadow: 0 0 10px rgba(255, 255, 255, 0.4), 0 0 20px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 0.2);
+}*/
+/*.prihlaseni{
+	height: 50px;
+	width: 50px;
+	background-image: url("profil.png");
+}*/
